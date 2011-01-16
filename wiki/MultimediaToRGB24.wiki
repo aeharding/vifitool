@@ -1,0 +1,17 @@
+#summary This tutorial will tell you how to convert any file into an rgb24 file for testing.
+#labels Phase-Deploy
+
+= Introduction =
+
+What you need:
+  # A multimedia file.
+  # A version of FFMPEG for your system. Window users refer to here: http://ffmpeg.arrozcru.org/wiki/index.php?title=Links.
+
+
+= Instructions =
+
+  # To start, open a command prompt and navigate using the _cd_ command to the directory with your source media, your ffmpeg executable, and where your output media will be placed.
+  # Type the following:
+{{{ffmpeg -i INPUT.abc -vframes 20 -s cif -pix_fmt rgb24 OUTPUT.rgb}}}
+  # Remember to replace INPUT.abc to your file-to-be-converted, change the -vframes 20 value to however many frames of the media you want converted, and optionally changing the OUTPUT.rgb name (leaving the filename extension .rgb intact).
+  # There you go! Assuming everything went well, your video file is ready for testing.
