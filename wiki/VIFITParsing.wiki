@@ -1,8 +1,8 @@
-#summary VIFIT uses command line parsing in order to get input. Here is a more in-depth exxplanation than is provided embeded in the tool.
+#summary VIFIT uses command line parsing in order to get input. Here is a more in-depth explanation than is provided embeded in the tool.
 
 = Introduction =
 
-Download VIFIT and put it in a folder. Put your RGB24 media in the same folder [http://code.google.com/p/vifitool/wiki/MultimediaToRGB24 more information of how to convert media here].
+Download VIFIT and put it in a folder. Put your RGB24 media in the same folder [http://code.google.com/p/vifitool/wiki/MultimediaToRGB24 (with more information of how to convert media here)].
 
 Keep in mind that with the package you can use the wizard in order to easily convert and scan media.
 
