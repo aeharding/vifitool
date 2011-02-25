@@ -13,7 +13,7 @@ VIFIT uses the parsing commands:
  * -w : Width of input media to be scanned.
  * -h : Height of input media to be scanned.
  * -o : The output name. MUST NOT CONTAIN EXTENSION (Ex: .txt, .csv etc).
- * -n : The number of frames to computer for. A value of -1 automatically computes this.
+ * -n : The number of frames to scan. A value of -1 automatically computes the length of the whole material.
 
 = Usage =
 
