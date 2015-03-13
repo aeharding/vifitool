@@ -1,0 +1,18 @@
+# Introduction #
+
+Download VIFIT and put it in a folder. Put your RGB24 media in the same folder [(with more information of how to convert media here)](http://code.google.com/p/vifitool/wiki/MultimediaToRGB24).
+
+Keep in mind that with the package you can use the wizard in order to easily convert and scan media.
+
+# Details #
+
+VIFIT uses the parsing commands:
+  * -i : Input material, including full extention (Ex: test.rgb).
+  * -w : Width of input media to be scanned.
+  * -h : Height of input media to be scanned.
+  * -o : The output name. MUST NOT CONTAIN EXTENSION (Ex: .txt, .csv etc).
+  * -n : The number of frames to scan. A value of -1 automatically computes the length of the whole material.
+
+# Usage #
+
+To use, simply go to the command line, select or type in run and in the prompt type in the filename of vifit (in quotes if containing spaces) and the parsing commands after.
